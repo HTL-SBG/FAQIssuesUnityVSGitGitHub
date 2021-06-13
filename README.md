@@ -10,10 +10,18 @@ Hier gibt es mehrere Ansätze, da es mehrere Ursachen geben kann.
 
 1) Restart Unity & Visual Studio
 2) Ensure Visual Studio is External Editor: Edit > Preferences > External Tools
-3) Check Unity dev tools installed in Visual Studio: Tools > Get Tools and Features
+![vs2](https://user-images.githubusercontent.com/28704310/121807325-f8981380-cc53-11eb-92fc-92fc9595adf1.JPG)
+
+3) Check Unity dev tools installed in Visual Studio: Tools > Get Tools and Features 
+![vs3](https://user-images.githubusercontent.com/28704310/121807340-08aff300-cc54-11eb-8fa7-27a1e13bd1c4.JPG)
+
 4) Check Unity dev tools installed in Visual Studio: Tools > Extensions> Manage Extensions 
+![vs4](https://user-images.githubusercontent.com/28704310/121807364-182f3c00-cc54-11eb-9604-5e521b2d03c7.JPG)
+
 5) Check script included in project (Visual Studio): Solution Explorer
-6) Try updatingVisual Studio
+![vs5](https://user-images.githubusercontent.com/28704310/121807371-22e9d100-cc54-11eb-945a-5893abd5ea15.JPG)
+
+7) Try updatingVisual Studio
 
 ## SteamVR files tracked although ingored in .gitignore
 
