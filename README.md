@@ -5,6 +5,22 @@ Hier eine Sammlung mit Lösungen zu Stolpersteinen.
 
 Sammlung:
 
+## Untrack files and folders in git
+
+```
+# Untrack file already added to git repo:
+git rm --cached fileToUntrack.meta
+
+# Untrack folder already added to git repo:
+git rm -r --cached folderToUntrack
+```
++ rm is the remove command
+
++ -r will allow recursive removal
+
++ --cached will only remove files from the index. Your files will still be there.
+
+
 ## Intellisense is not working in the right way, Visual Studio 2019
 Hier gibt es mehrere Ansätze, da es mehrere Ursachen geben kann.
 
